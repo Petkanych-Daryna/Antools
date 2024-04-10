@@ -3,7 +3,7 @@ body{
     background-color: rgba(30, 37, 43, 1);
 }
 .conteiner{
-    width: 1440px;
+    width: 1224px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -26,6 +26,13 @@ h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
     justify-content: space-between;
     padding-top: 34px;
 }
+.title-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+.title-item{}
 .title{
     color: rgba(255, 255, 255, 0.9);
 font-size: 22px;
@@ -46,7 +53,9 @@ line-height: 24px;
 text-align: left;
 
 }
-.nav-link{}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
 .header-list{
     display: flex;
     gap: 50px;
@@ -77,23 +86,30 @@ text-align: left;
     text-align: left;
 
 }
-input{
+.form-input{
     background-color: rgba(40, 48, 54, 1);
     padding: 21px 253px 21px 55px;
     border-radius: 15px;
+    border: none;
 }
 .form{
-    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+
+    width: 497.659px;
+    height: 64px;
+
 }
-.span2{
-    color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
-}
+
 .form-button{
     background-color: rgba(255, 110, 48, 1);
+    border: none;
+    color: #FFF;
+    width: 130.435px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 8px;
     margin-left: -150px;
 }
@@ -169,6 +185,12 @@ border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 margin-top: 100px;
 
+color: rgba(255, 110, 48, 1);
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+
 }
 
 /* ============================version===================== */
@@ -226,13 +248,12 @@ background-color: rgba(255, 110, 48, 1);
 width: 198px;
 height: 58px;
 border-radius: 8px;
-}
-.span5{
-    color: rgba(255, 255, 255, 1);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    text-align: left;
+
+color: rgba(255, 255, 255, 1);
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
 }
 .tools-list{
     display: flex;
@@ -272,14 +293,14 @@ text-align: left;
 }
 .main-button{
     background-color: rgba(30, 37, 43, 1);
-}
-.span6{
+
     color: rgba(255, 255, 255, 0.55);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     text-align: left;
 }
+
 /* ===========================people============================= */
 .people{
     padding-top: 100px;
@@ -337,6 +358,7 @@ text-align: center;
     padding-top: 100px;
     margin: 0 446px;
 }
+.input-button{}
 .contributor-button{
 background-color: rgba(255, 110, 48, 1);
 border-radius: 8px;
