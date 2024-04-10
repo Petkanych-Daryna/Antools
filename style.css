@@ -32,7 +32,6 @@ font-size: 22px;
 font-weight: 600;
 line-height: 33px;
 text-align: left;
-
 }
 .header-nav{}
 .nav-list{
@@ -52,24 +51,6 @@ text-align: left;
     display: flex;
     gap: 50px;
 }
-.list-item{
-    color: rgba(255, 255, 255, 0.78);
-    padding-top: 15px;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
-
-}
-.item-link{}
-.span1{
-    color: rgba(253, 245, 255, 1);
-    font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
-
-}
 .nav-button{
     background-color: rgba(255, 110, 48, 1);
     padding: 12px 28px;
@@ -82,14 +63,6 @@ text-align: left;
 }
 .hero{
     color: rgba(255, 255, 255, 0.9);
-font-size: 50px;
-font-weight: 500;
-line-height: 70px;
-text-align: left;
-
-}
-.span0{
- color: rgba(255, 110, 48, 1);
 font-size: 50px;
 font-weight: 500;
 line-height: 70px;
@@ -122,7 +95,6 @@ text-align: left;
 .form-button{
     background-color: rgba(255, 110, 48, 1);
     border-radius: 8px;
-    padding:12px 36px ;
     margin-left: -150px;
 }
 /* ==============================programs======================= */
@@ -180,20 +152,11 @@ text-align: left;
 }
 .programs-button{
     background-color: rgba(30, 37, 43, 1);
-}
-.span3{
     color: rgba(255, 255, 255, 0.55);
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     text-align: left;
-}
-.span4{
-    color: rgba(255, 110, 48, 1);
-    font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-text-align: left;
 }
 .many-button{
 background-color: rgba(30, 37, 43, 1);
