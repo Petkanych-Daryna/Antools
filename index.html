@@ -11,86 +11,147 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header conteiner">
-        <ul class="title-list">
-            <li class="title-item"><a href="/"> <img src="./img/Group159.png" alt="img"></a></li>
-            <li class="title-item"><a class="title" href="/">antools.</a></li>
-        </ul>
-        
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Categories <img src="./img/chevron-down.png" alt="chevron"></a></li>
-                <li class="nav-item"><a class="nav-link" href="#">My Collections</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+    <section class="servise">
+        <header class="header conteiner">
+            <ul class="title-list">
+                <li class="title-item"><a href="/"> <img src="./img/Group159.png" alt="img"></a></li>
+                <li class="title-item"><a class="title" href="/">antools.</a></li>
             </ul>
-        </nav>
-        <ul class="header-list">
-            <li><button class="nav-button" type="button">Login</button></li>
-            <li><button class="nav-button" type="button">Sign Up</button></li>
+            
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categories <img src="./img/chevron-down.png" alt="chevron"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">My Collections</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <ul class="header-list">
+                <li class="header-item"><button class="nav-button" type="button">Login</button></li>
+                <li class="header-item"><button class="nav-button" type="button">Sign Up</button></li>
+            </ul>
+        </header>
+        
+        <div class="servise-hero conteiner">
+            <h1 class="hero">Awesome tools for Designer & Developer<span class="span0">.</span></h1>
+            <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+            <form class="form">
+                <div class="button-block">
+                    <input type="text" placeholder="find more than 430+ tools..." class="form-input">
+                    <button class="form-button" type="button" >Search</button>
+                </div>
+            </form>
+        </div>
+
+        <ul class="media conteiner">
+            <li class="media-item"><img src="./img/bx_bxl-facebook.png" alt="facebook"></li>
+            <li class="media-item"><img src="./img/bx_bxl-instagram.png" alt="instagram"></li>
+            <li class="media-item"><img src="./img/bx_bxl-twitter.png" alt="twitter"></li>
         </ul>
-    </header>
-
-    <main class="main conteiner">
-        <h1 class="hero">Awesome tools for<br> Designer & Developer<span class="span0">.</span></h1>
-        <p class="hero-text">Antool is a web collection of information on paid or<br> free Design and Development tools</p>
-        <form class="form">
-            <input type="text" placeholder="find more than 430+ tools..." class="form-input">
-            <button class="form-button" type="button" >Search</button>
-        </form>
-
-        <section class="programs">
+    </section>
+    
+    <main class="main">
+        <section class="programs conteiner">
             <h2 class="programs-title">Most Popular Tools</h2>
-            <p class="programs-text">Tools for the best Designers and Developers<br>
-                most popularly used in the world</p>
+            <p class="programs-text">Tools for the best Designers and Developers most popularly used in the world</p>
             <ul class="programs-list">
                 <li class="programs-item">
                     <img class="programs-img" src="./img/grommet-icons_figma.svg" alt="FIGMA" width="64" height="64">
-                    <h3 class="programs-subtitle">FIGMA</h3>
-                    <h4 class="programs-value">Free</h4>
-                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="programs-button" type="button">Visit</button>
+                    <div class="programs-tools">
+                        <h3 class="programs-subtitle">FIGMA</h3>
+                        <h4 class="programs-value">Free</h4>
+                    </div>
+                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="programs-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="programs-item">
                     <img class="programs-img" src="./img/logos_sketch.svg" alt="Sketch" width="64" height="64">
-                    <h3 class="programs-subtitle">Sketch</h3>
-                    <h4 class="programs-value">Trial & Paid</h4>
-                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="programs-button" type="button">Visit</button>
+                    <div class="programs-tools">
+                        <h3 class="programs-subtitle">Sketch</h3>
+                        <h4 class="programs-value">Trial & Paid</h4>
+                    </div>
+                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="programs-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="programs-item">
                     <img class="programs-img" src="./img/logos_visual-studio-code.svg" alt="Visual Studio Code" width="64" height="64">
-                    <h3 class="programs-subtitle">Visual Studio Code</h3>
-                    <h4 class="programs-value">Free</h4>
-                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="programs-button" type="button">Visit</button>
+                    <div class="programs-tools">
+                        <h3 class="programs-subtitle">Visual Studio Code</h3>
+                        <h4 class="programs-value">Free</h4>
+                    </div>
+                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="programs-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="programs-item">
                     <img class="programs-img" src="./img/notion.svg" alt="Notion" width="64" height="64">
-                    <h3 class="programs-subtitle">Notion</h3>
-                    <h4 class="programs-value">Free & Paid</h4>
-                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="programs-button" type="button">Visit</button>
+                    <div class="programs-tools">
+                        <h3 class="programs-subtitle">Notion</h3>
+                        <h4 class="programs-value">Free & Paid</h4>
+                    </div>
+                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="programs-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="programs-item">
                     <img class="programs-img" src="./img/grommet-icons_slack.svg" alt="Slack" width="64" height="64">
-                    <h3 class="programs-subtitle">Slack</h3>
-                    <h4 class="programs-value">Free & Paid</h4>
-                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="programs-button" type="button">Visit</button>
+                    <div class="programs-tools">
+                        <h3 class="programs-subtitle">Slack</h3>
+                        <h4 class="programs-value">Free & Paid</h4>
+                    </div class="programs-div">
+                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div>
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="programs-item">
                     <img class="programs-img" src="./img/logos_invision-icon.svg" alt="Invision" width="64" height="64">
-                    <h3 class="programs-subtitle">Invision</h3>
-                    <h4 class="programs-value">Free & Paid</h4>
-                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="programs-button" type="button">Visit</button>
+                    <div class="programs-tools">
+                        <h3 class="programs-subtitle">Invision</h3>
+                        <h4 class="programs-value">Free & Paid</h4>
+                    </div>
+                    <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="programs-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
             </ul>
-            <button class="many-button" type="button">Load more</button>
+            <div class="button-lead">
+                <button class="many-button" type="button">Load more</button>
+            </div>
         </section>
 
-        <section class="version">
+        <section class="version conteiner">
             <h3 class="version-title">Trusted more than 150+ brand</h3>
             <ul class="version-list">
                 <li class="version-item">
@@ -102,38 +163,70 @@
             </ul>
         </section>
         
-        <section class="tools">
+        <section class="tools conteiner">
             <h2 class="tools-title">Newcomer Tools</h2>
             <p class="tools-text">Wow! see the latest update of the most<br> recommended tools from reliable designers<br> and developers</p>
             <button class="tools-butoon-main" type="button">Explore more</button>
             <ul class="tools-list">
                 <li class="tools-item">
                     <img class="tools-img" src="./img/zeplin.svg" alt="Zeplin" width="64" height="64">
-                    <h3 class="tools-subtitle">Zeplin</h3>
-                    <h4 class="tools-value">Free & Paid</h4>
+                    <div class="tools-block">
+                        <h3 class="tools-subtitle">Zeplin</h3>
+                        <h4 class="tools-value">Free & Paid</h4>
+                    </div>
                     <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="main-button" type="button">Visit</button>
+                    <div class="tools-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="tools-item">
                     <img class="tools-img" src="./img/Group(1).svg" alt="PHPStorm" width="64" height="64">
-                    <h3 class="tools-subtitle">PHPStorm</h3>
-                    <h4 class="tools-value">Free</h4>
+                    <div class="tools-block">
+                        <h3 class="tools-subtitle">PHPStorm</h3>
+                        <h4 class="tools-value">Free</h4>
+                    </div>
                     <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="main-button" type="button">Visit</button>
+                    <div class="tools-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="tools-item">
                     <img class="tools-img" src="./img/jb_toolbox_app.svg" alt="Toolbox" width="64" height="64">
-                    <h3 class="tools-subtitle">Toolbox</h3>
-                    <h4 class="tools-value">Free</h4>
+                    <div class="tools-block">
+                        <h3 class="tools-subtitle">Toolbox</h3>
+                        <h4 class="tools-value">Free</h4>
+                    </div>
                     <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="main-button" type="button">Visit</button>
+                    <div class="tools-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
                 <li class="tools-item">
                     <img class="tools-img" src="./img/procreate.svg" alt="Procreate" width="64" height="64">
-                    <h3 class="tools-subtitle">Procreate</h3>
-                    <h4 class="tools-value">Paid</h4>
+                    <div class="tools-block"">
+                        <h3 class="tools-subtitle">Procreate</h3>
+                        <h4 class="tools-value">Paid</h4>
+                    </div>
                     <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
-                    <button class="main-button" type="button">Visit</button>
+                    <div class="tools-div">
+                        <div>
+                            <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
+                            <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                        </div>
+                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
+                    </div>
                 </li>
             </ul>
         </section>
