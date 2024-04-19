@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="servise">
+    <section class="servise conteiner">
         <header class="header conteiner">
             <ul class="title-list">
                 <li class="title-item"><a href="/"> <img src="./img/Group159.png" alt="img"></a></li>
@@ -21,7 +21,7 @@
             <nav class="header-nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Categories <img src="./img/chevron-down.png" alt="chevron"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">My Collections</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                 </ul>
@@ -39,7 +39,7 @@
                 <div class="button-block">
                     <input type="text" placeholder="find more than 430+ tools..." class="form-input">
                     <button class="form-button" type="button" >Search</button>
-                </div>
+                </div>    
             </form>
         </div>
 
@@ -63,7 +63,7 @@
                     </div>
                     <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="programs-div">
-                        <div>
+                        <div class="icon-div">
                             <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
                             <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
                         </div>
@@ -120,9 +120,9 @@
                     <div class="programs-tools">
                         <h3 class="programs-subtitle">Slack</h3>
                         <h4 class="programs-value">Free & Paid</h4>
-                    </div class="programs-div">
+                    </div>
                     <p class="text-programs">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div>
+                    <div class="programs-div">
                         <div>
                             <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
                             <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
@@ -164,95 +164,133 @@
         </section>
         
         <section class="tools conteiner">
-            <h2 class="tools-title">Newcomer Tools</h2>
-            <p class="tools-text">Wow! see the latest update of the most<br> recommended tools from reliable designers<br> and developers</p>
-            <button class="tools-butoon-main" type="button">Explore more</button>
+            <div class="tools-main">
+                <h2 class="tools-title">Newcomer Tools</h2>
+                <p class="tools-text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+                <button class="tools-butoon-main" type="button">Explore more</button>
+            </div>
             <ul class="tools-list">
                 <li class="tools-item">
-                    <img class="tools-img" src="./img/zeplin.svg" alt="Zeplin" width="64" height="64">
+                    <div class="tools-item-div">
+                    <div class="item-block">
+                        <img class="tools-img" src="./img/zeplin.svg" alt="Zeplin" width="64" height="64">
+                    </div>
                     <div class="tools-block">
                         <h3 class="tools-subtitle">Zeplin</h3>
                         <h4 class="tools-value">Free & Paid</h4>
                     </div>
-                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
+                    </div>
+                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="tools-div">
                         <div>
                             <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
                             <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                            <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                         </div>
-                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                     </div>
                 </li>
                 <li class="tools-item">
-                    <img class="tools-img" src="./img/Group(1).svg" alt="PHPStorm" width="64" height="64">
+                    <div class="tools-item-div">
+                    <div class="item-block">
+                        <img class="tools-img" src="./img/Group(1).svg" alt="PHPStorm" width="64" height="64">
+                    </div>
                     <div class="tools-block">
                         <h3 class="tools-subtitle">PHPStorm</h3>
                         <h4 class="tools-value">Free</h4>
                     </div>
-                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
+                </div>
+                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="tools-div">
                         <div>
                             <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
                             <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                            <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                         </div>
-                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                     </div>
                 </li>
                 <li class="tools-item">
-                    <img class="tools-img" src="./img/jb_toolbox_app.svg" alt="Toolbox" width="64" height="64">
+                    <div class="tools-item-div">
+                    <div class="item-block">
+                        <img class="tools-img" src="./img/jb_toolbox_app.svg" alt="Toolbox" width="64" height="64">
+                    </div>
                     <div class="tools-block">
                         <h3 class="tools-subtitle">Toolbox</h3>
                         <h4 class="tools-value">Free</h4>
                     </div>
-                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
+                </div>
+                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="tools-div">
                         <div>
                             <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
                             <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                            <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                         </div>
-                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                     </div>
                 </li>
                 <li class="tools-item">
-                    <img class="tools-img" src="./img/procreate.svg" alt="Procreate" width="64" height="64">
-                    <div class="tools-block"">
+                    <div class="tools-item-div">
+                    <div class="item-block">
+                        <img class="tools-img" src="./img/procreate.svg" alt="Procreate" width="64" height="64">
+                    </div>
+                    <div class="tools-block">
                         <h3 class="tools-subtitle">Procreate</h3>
                         <h4 class="tools-value">Paid</h4>
                     </div>
-                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p>
+                </div>
+                    <p class="tools-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="tools-div">
                         <div>
                             <a href="#"><img class="icon-like" src="./img/flat-color-icons_like.png" alt="like"></a>
                             <a href="#"><img class="icon-folder" src="./img/eva_folder-add-outline.png" alt="folder"></a>
+                            <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                         </div>
-                        <a href="#"><img class="button-visit" src="./img/tools-visit.png" alt="visit"></a>
                     </div>
                 </li>
             </ul>
         </section>
 
-        <section class="people">
-            <h3 class="people-title">Ronald Richards</h3>
-            <p class="text-peple">Product Manager</p>
-            <img class="people-img" src="./img/david-suarez-4a1nNlrS5ZI-unsplash.png" alt="man" width="666" height="832">
-            <p class="people-text">Incididunt cillum do sint sint enim ullamco id deserunt mollit<br> qui reprehenderit do. Velit ex tempor cillum ad sint occaecat.<br> Do nulla velit labore occaecat do deserunt Lorem magna<br> officia incididunt consectetur amet. Sunt consectetur veniam<br> minim ex commodo sint non. Occaecat aute officia excepteur<br> non laboris id qui ad.</p>
-        </section>
+        <section class="people conteiner">
+            <div class="people-div">
+                <img class="people-img-chevron" src="./img/chevron-left.png" alt="chevron" width="48" height="48">
+                <div class="people-div-img">
+                <div class="people-div-title">
+                    <h3 class="people-title">Ronald Richards</h3>
+                    <p class="text-peple">Product Manager</p>
+                </div>
+            </div>
+                <p class="people-text">Incididunt cillum do sint sint enim ullamco
+                 id deserunt mollit qui reprehenderit do. Velit ex tempor cillum 
+                 ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem 
+                 magna officia incididunt consectetur amet. Sunt consectetur veniam 
+                 minim ex commodo sint non. Occaecat aute officia excepteur non laboris
+                 id qui ad.</p>
+            <img class="people-img-chevron" src="./img/chevron-right.png" alt="chevron" width="48" height="48">
+        </div>
+    </section>
+    <section class="section conteiner">
+        <img class="rectangles-img" src="./img/cube1433.png" alt="slider">
+    </section>
 
-        <section class="contributor">
+        <section class="contributor conteiner">
             <h2 class="contributor-title">Become a contributor?</h2>
             <p class="contributor-text">Join us and get tips & tricks to become a great<br> Designer and Developer</p>
             <form class="contributor-form">
-                <input type="text" placeholder="Enter your email..." class="input-button">
-                <button class="contributor-button" type="button"><span class="span7">Join Us</span></button>
+                <div class="contributor-block">
+                    <input type="text" placeholder="Enter your email..." class="input-button">
+                    <button class="contributor-button" type="button">Join Us</button>
+                </div>
             </form>
         </section>
     </main>
 
-    <hr>
+    <hr class="hr conteiner">
     <footer class="footer conteiner">
         <ul class="footer-list">
             <li class="footer-item">
-                <h4 class="footer-title">antools.</h4>
+                <div class="footer-div">
+                    <img src="./img/Grouptitle(1).png" alt="title" width="38" height="38">
+                    <h4 class="footer-title">antools.</h4>
+                </div>
                 <h5 class="Antools-title">Copyright 2021. Antools</h5>
                 <p class="footer-subtext">Antool is a web collection of<br> information on paid or free Design<br> and Development tools</p>
             </li>
