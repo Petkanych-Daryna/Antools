@@ -46,6 +46,18 @@ font-weight: 600;
 line-height: 33px;
 text-align: left;
 }
+.animate__animated.animate__bounceInDown{
+    --animate-duration: 2s;
+}
+.animate__animated.animate__backInLeft{
+    --animate-duration: 2s;
+}
+.animate__animated.animate__backInRight{
+    --animate-duration: 2s;
+}
+.animate__animated.animate__fadeInUp{
+    --animate-duration: 3s;
+}
 .header-nav{}
 .nav-list{
     display: flex;
@@ -339,6 +351,9 @@ text-align: left;
 }
 .button-visit:not(:last-child){
     margin-right: 25px;
+}
+.animate__animated.animate__flip{
+    --animate-duration: 2s;
 }
 .button-lead{
     display: flex;
